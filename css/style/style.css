@@ -1,0 +1,8 @@
+.img {
+  border-radius: 50%;
+  height: 14rem;
+} 
+.rep{
+  border-image-repeat: repeat;
+  background-image: image(https://www.google.com/url?sa=i&url=https%3A%2F%2Fcssanimation.rocks%2Fstarwars%2F&psig=AOvVaw1C1eJ6pe7hZlbN1Nnne42Z&ust=1602059788766000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjjlP3Hn-wCFQAAAAAdAAAAABAG );
+}

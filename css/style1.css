@@ -1,0 +1,47 @@
+*{
+    border: none;
+    padding: none;
+    
+}
+h3 {
+    color: white;
+    background-color: black;
+    border-radius: 2%;
+    padding: .5rem;
+}
+p{
+    background-color: rgb(197, 197, 197);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.jumbotron {
+    background-color: rgba(92, 92, 92, 0.664);
+    color: rgb(22, 22, 22);
+    border-radius: 2%;
+}
+
+footer {
+    padding: 10px 10px 0 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    background-color: rgb(128, 128, 128);
+    
+}
+
+.card-hotel {
+    flex: 1 150px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.btn-reserva {
+    width: 100%;
+}
+.btn-info {
+
+    background-color: #616161;
+    border-color: #808080;
+}

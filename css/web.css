@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* General */
+a {
+    text-decoration: none;
+    color: grey;
+    padding: 4px;
+}
+
+/* Nav */
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    background: white;
+    padding: 20px 0;
+    border-bottom: solid 1px #dedede;
+}
+.desktop-menu li {
+    display: inline-block;
+}
+nav .desktop-menu {
+    display: none;
+}
+
+@media (min-width: 992px) {
+ .menu-icon {
+     display: none;
+ }
+ nav .desktop-menu {
+     display: block;
+ }
+ .mobile-menu {
+     display: none;
+ }
+}
+/*  */
+.jumbotron {
+    background-image: url('');
+    background-color: grey;
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100vh;
+    position: relative;
+}
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.67);
+}
+.jumbotron-content {
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* about me */
+.about-me {
+    margin-top: -100px;
+    margin-left: 20%;
+    position: relative;
+    width: 60%;
+}
+/* Servicios */
+.service-1, .service-2, .service-3, .service-4, .service-5, .service-6 {
+    height: 200px;
+    background-size: cover;
+}
+.service-1 {
+    background-image: url('https://images.pexels.com/photos/3009487/pexels-photo-3009487.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+.service-2 {
+    background-image: url('https://images.pexels.com/photos/4932184/pexels-photo-4932184.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+
+
+
+/* Componentes reutilizable  */
+.box {
+    padding: 8px;
+    border-radius: 5px;
+    border: solid 2px grey;
+    background: white;
+}
+.button {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.button-white {
+    background-color: white;
+}
+
+/* Helpers */
+.text-white {
+    color: white;
+}
+.text-center {
+    text-align: center;
+}
+.position-relative {
+    position: relative;
+}
+.display-flex {
+    display: flex;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.space-top {
+    margin-top: 10px;;
+}
+.space-between {
+    justify-content: space-between;
+}
+.list-style-none {
+    list-style: none;
+}
+.hide {
+    display: none;
+}

@@ -1,0 +1,41 @@
+.image {
+  background-image: url(../imagen/icon/dibujo.svg);
+  width: 4rem;
+  background-repeat: no-repeat;
+  height: 4rem; 
+  display: flex;
+  align-items: center;
+  padding: none;
+}
+.mt-5{
+  margin-top: 8rem!important;
+}
+.imagen :hover {
+  background-image: url(../imagen/icon/lup.svg);
+  width: 3rem;
+  background-repeat: no-repeat;
+  height: 3rem; 
+  display: flex;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.lup{
+  background-image: url(../imagen/icon/lup.svg);
+  width: 3rem;
+  background-repeat: no-repeat;
+  height: 3rem; 
+}
+.mar{
+  margin-top: 5rem;
+}
+.sildebar{
+  position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-sizing: border-box;
+}
